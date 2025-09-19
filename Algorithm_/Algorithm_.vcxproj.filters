@@ -13,5 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Test">
+      <UniqueIdentifier>{ba7d2c26-641f-4e21-80d5-2bb6aba29c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Test2">
+      <UniqueIdentifier>{88b45e9d-b06f-4f98-91fe-4ef451cd102d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test2.cpp">
+      <Filter>소스 파일\Test2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
